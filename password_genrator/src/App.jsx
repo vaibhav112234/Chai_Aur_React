@@ -40,13 +40,13 @@ function App() {
   }, [length, numberAllowed, charAllowed, passwordGenerator])
   return (
     
-    <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 bg-gray-400 text-black-00">
-      <h1 className='text-white text-center my-3'>Password generator</h1>
-    <div className="flex shadow rounded-lg overflow-hidden mb-4">
+    <div className="w-full shadow-md rounded-lg px-80 py-40 my-8 bg-gray-400 text-black-00">
+      <h1 className='text-white text-center text-5xl my-8'><b>Password generator</b></h1>
+    <div className="flex shadow rounded-lg overflow-hidden mb-8">
         <input
             type="text"
             value={password}
-            className="outline-none w-full py-1 px-3 bg-gray-200 "
+            className="outline-none w-full py-5 px-3 bg-gray-200 "
             placeholder="Password"
             readOnly
             ref={passwordRef}
@@ -57,7 +57,7 @@ function App() {
         >copy</button>
         
     </div>
-    <div className='flex text-sm gap-x-2'>
+    <div className='flex text-2xl gap-x-2'>
       <div className='flex items-center gap-x-1'>
         <input 
         type="range"
