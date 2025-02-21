@@ -31,15 +31,15 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://m.economictimes.com/thumb/msid-97523328,width-1200,height-1200,resizemode-4,imgsize-65126/budget-technology.jpg" alt="image1" />
+                    <img className="w-150" src="https://cdn.pixabay.com/photo/2023/11/29/12/29/kid-8419485_640.jpg" alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxttsR6WZfNjRsDjmdLACen2DkaNiDrb6jHA&s" alt="image2" />
+                <img className="sm:w-150 w-100" src="https://versuchetech.com/wp-content/uploads/2024/01/dd.png" alt="image2" />
             </div>
 
-            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
+            <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Technology</h1>
         </div>
     );
 }
